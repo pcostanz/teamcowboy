@@ -1,4 +1,4 @@
-# Teamcowboy
+# [teamcowboy](https://github.com/pcostanz/teamcowboy/)
 
 ## Usage
 
@@ -11,7 +11,7 @@ Initialize the `teamcowboy` module by calling it with your Team Cowboy API crede
 ```
 import teamcowboy from 'teamcowboy';
 
-const teamcowboyApi = tc({
+const teamcowboyApi = teamcowboy({
     privateKey: 'xxx',
     publicKey: 'xxx',
 });
@@ -44,7 +44,7 @@ auth.getUserToken({
 });
 ```
 
-## Team Cowboy method mapping.
+## Team Cowboy method mapping
 
 ### [Authentication Methods](https://api.teamcowboy.com/v1/docs/#_Toc372547915)
 
