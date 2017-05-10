@@ -1,4 +1,10 @@
+#Teamcowboy
+
 ## Usage
+
+Install the `teamcowboy` module from npm.
+
+`npm install teamcowboy --save`
 
 Initialize the `teamcowboy` module by calling it with your Team Cowboy API credentials, in return you'll get an initialized api module (exported as a JavaScript object) that you can then use to interact with the Team Cowboy API.
 
