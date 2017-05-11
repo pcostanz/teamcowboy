@@ -1,7 +1,7 @@
 {
   "name": "teamcowboy",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript wrapper for the TeamCowboy API",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf ./lib",
@@ -11,8 +11,12 @@
     "transpile": "babel ./src --out-dir ./lib --source-maps inline --ignore *.test.js",
     "transpile:watch": "npm run transpile -- --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Patrick Costanzo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcostanz/teamcowboy.git"
+  },
   "dependencies": {
     "axios": "^0.16.1",
     "js-sha1": "^0.4.1",
