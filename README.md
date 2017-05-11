@@ -9,9 +9,7 @@ Install the `teamcowboy` module from npm.
 Initialize the `teamcowboy` module by calling it with your Team Cowboy API credentials, in return you'll get an initialized api module (exported as a JavaScript object) that you can then use to interact with the Team Cowboy API.
 
 ```
-import teamcowboy from 'teamcowboy';
-
-const teamcowboyApi = teamcowboy({
+const teamcowboyApi = require('teamcowboy')({
     privateKey: 'xxx',
     publicKey: 'xxx',
 });
