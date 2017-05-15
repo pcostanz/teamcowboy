@@ -1,4 +1,4 @@
-# [teamcowboy](https://github.com/pcostanz/teamcowboy/)
+# [teamcowboy](https://github.com/pcostanz/teamcowboy/) [![Build Status](https://travis-ci.org/pcostanz/teamcowboy.svg?branch=master)](https://travis-ci.org/pcostanz/teamcowboy)
 
 ## Usage
 

@@ -1,0 +1,9 @@
+deploy:
+  provider: npm
+  email: costanzo.patrick@gmail.com
+  api_key:
+    secure: d2g6tP1U80FDVbP454AN+SvMWRoc3iQRtjkAV+gZUFi5DZ/e87SsfSv82ja48HhFMw8pdK+NWKEFwZRdHT6tX/Nt9jXOh9E8XVQT6bMPbFj75zoxAG0ywSiiX4q5lZV5qSMnou5dLXS9l/7lis+N9l2r1A4AaER79yc1AxqX7aZbOWkZF14TrbWa98TnvtbM8wjN6cE23fyEiI8hpcggSYVBW9HvCOd+9EY6To4YGnD9Z6gsmtE7ElVVboqtlyhayFoPlu0ERqIG3nKurzb1IJjsrOIJyLuo37oXlxv0FiVlmu6YtP6/cVChzQJMCMOWZr1/iTB0KfG3xTGglbVwLdb81KWw8+3YzS9pB8gsXLGq++RWFtGa87xuSx8yctegjadBb5ySdLKqG/kgdtnujRMhGnf66Jn3P5Ug5IlRhHRJ02J/MRzh2CvLqgBG1Rz8OK386f4+zUmdIbYyyZHK9ZHKHczMWhnA1DvOKOXCU4IsRviK+hOVHkL+Oc4F4jIi8bzkRLNUINLsW9TkB0Nop16PskzCvT/CPVfCSgy+RoCkEoma1xj5IPpR2yOl44Xp2PsoT9jyoTrLZYmDX+1rXkEiI6xLWYl9977rsZiqaR8jkUI+iIQvrUnZJ1cbWvzUbdzOUnktn8e3IFAFh+LUcgsixaIWvNViJNkT1QtadK4=
+  on:
+    branch: master
+    tags: true
+    repo: pcostanz/teamcowboy
